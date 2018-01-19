@@ -1,0 +1,51 @@
+.header{
+    height: 79px;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.header__left, .header__right{
+    float: left;
+    width: 50%;
+}
+.user__avatar{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+}
+.user__username{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer{
+    background: #414141;
+
+}
+.copyright{
+    color: white;
+    font-family: "Fira Sans";
+    font-size: 14pt;
+    vertical-align: middle;
+}
+.footer__left, .footer__right{
+    float: left;
+    width: 50%;
+}
+.socials__link{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.btn{
+    padding: 10px 35px;
+    border: 2px solid red;
+    display: inline-block;
+    color: red;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.btn__text{
+    display:inline-block;
+    vertical-align: center;
+}

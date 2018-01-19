@@ -1,0 +1,147 @@
+@media screen and(max-width: 1200px){//hd
+  html{
+    font-size: 16px;
+  }
+  .container{
+    width:970px;
+  }
+  .footer {
+    min-width: 0; }
+  .user__username{
+    max-width: 300px;
+  }
+
+}
+@media screen and(max-width: 992px){//laptop
+  html{
+    font-size: 15px;
+  }
+  .container{
+    width:750px;
+  }
+  .page-content{
+    width: rem(500px);
+  }
+  .about__left{
+    width:(172px);
+  }
+  .about__right{
+    width:(290px);
+  }
+  .about__pic{
+    max-width: rem(130px);
+    max-height: rem(130px);
+  }
+}
+@media screen and(max-width: 768px){//tablets
+  html{
+    font-size: 14px;
+  }
+  .container{
+    width:480px;
+  }
+  .contacts {
+    margin-top: 22px; }
+  .contacts .contacts__link {
+    background: url("../../img/decor/phone.png") 0 0 no-repeat; }
+  .contacts:hover .contacts__link {
+    background: url("../../img/decor/phone-hover.png") 0 0 no-repeat; }
+
+  .contacts__dropdown {
+    transform: translateX(0);
+    right: 0;
+    left: auto; }
+
+  .contacts__dropdown-triangle {
+    right: 0px;
+    transform: translateX(0);
+    left: auto; }
+
+  .contacts__link {
+    text-indent: 9999px;
+    display: inline-block;
+    white-space: nowrap;
+    width: 32px;
+    height: 32px; }
+  .sidebar{
+    width: 100%;
+    float: none;
+    margin-bottom: rem(35px);
+  }
+  .page-content{
+    width: 100%;
+    float: none;
+  }
+  .nav__item{
+    display: inline-block;
+  }
+  .nav__list{
+    text-align: left;
+  }
+  .nav__link{
+    border: 0 none;
+  }
+}
+@media screen and(max-width: 480px){//phones
+  html{
+    font-size: 12px;
+
+  }
+  .container {
+    box-sizing: border-box;
+    width: 95%;
+    padding: 0; }
+
+
+  .about__pic {
+    max-width: 150px;
+    max-height: 150px;
+    border: 5px solid #fff;
+  }
+  .nav__list{
+    text-align: center;
+  }
+  .about__left,.about__right{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .about__desc{
+    text-align: left;
+  }
+.about__btn{
+  float: none;
+}
+  .nav__link-text {
+    font-size: 14px; }
+  .footer {
+    height: 95px;
+    margin-top: -95px; }
+  .footer .container {
+    padding-top: 15px; }
+.footer__left,.footer__right{
+ float: none;
+} .copyright {
+    position: static;
+    text-align: center; }
+  .user__username{
+    max-width: 100px;
+  }
+  .socials__link {
+    position: static;
+    text-align: center;
+  float: none;}
+
+  .footer__left {
+    margin-bottom: 10px; }
+  .career__pic {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .career__block:after,.career__block:before,.career__year {
+   display: none; }
+  .career__block{
+    width: 100%;
+  }
+}

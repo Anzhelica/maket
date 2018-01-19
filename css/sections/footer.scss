@@ -1,0 +1,62 @@
+footer {
+  background: #414141;
+  height: rem(50px);
+  margin-top: rem(-50px);
+  position: relative;
+  min-width: 960px; }
+
+.footer__left{
+  display: inline-block;
+  float: left;
+
+}
+.copyright {
+  font-size: 14px;
+  line-height: 16px;
+  color: #9c9c9c;
+  position: absolute;
+  left: 0;
+  top: 18px;
+  font-family: "fira_sanslight",sans-serif;
+  font-weight: lighter;}
+
+
+
+.footer__right{
+  float:  right;
+}
+.footer .container {
+  padding-top: 10px;
+}
+.socials__link {
+  width: 32px;
+  height: 31px;
+  display: block;
+ // margin-top: 10px;
+}
+
+
+.socials__item {
+  display: inline-block; }
+
+.socials__link_fb{
+  background: url("../../img/footer/fb_icon.png") no-repeat;
+  &:hover{
+    background: url("../../img/footer/fb_icon-active.png") no-repeat;
+  }
+}
+.socials__link_vk{
+  background: url("../../img/footer/vk_icon.png") no-repeat;
+  &:hover{
+    background: url("../../img/footer/vk_icon-active.png") no-repeat;
+  }
+}
+.socials__link_tw{
+  background: url("../../img/footer/tw_icon.png") no-repeat;
+  &:hover{
+    background: url("../../img/footer/tw_icon-active.png") no-repeat;
+  }
+}
+.footer__right{
+  @include clearfix();
+}
